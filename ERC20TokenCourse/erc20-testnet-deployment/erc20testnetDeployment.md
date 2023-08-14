@@ -3,12 +3,12 @@ In this section, we will use Metamask (an Ethereum wallet) to deploy our contrac
 ### 1. Install Metamask
 **1.1** Go to <a href="https://metamask.io/" target="_blank">metamask.io</a>.
 
-**1.2** Click on the download button, then click on install for your browser (e.g. Chrome) and add the extension to your browser.
+**1.2** 点击下载按钮,然后点击对应你的浏览器（例如 Chrome）的安装按钮,并添加这个扩展到你的浏览器。
 
 **1.3** Create a wallet as described.
 
 ### 2. Get testnet token
-In order to make transactions on the testnet we need Ethereum testnet tokens, which you can receive from something called a *faucet*.
+为了在测试网络上发送交易，我们需要以太坊测试网络的代币，您可以从 *测试网水龙头* 获取测试代币。
 
 **2.1** Switch your Metamask network by clicking on the "Ethereum Mainnetwork" drop down and selecting "Ropsten Test Network". If you don’t see any test networks, click on the "Show/hide" link and enable "Show test networks" in the settings.
 
@@ -17,7 +17,7 @@ In order to make transactions on the testnet we need Ethereum testnet tokens, wh
 ### 3. Deployment
 Make sure the EduCoin contract is compiled.
 
-**3.1.** In the "DEPLOY & RUN TRANSACTIONS" module of the Remix IDE under "ENVIRONMENT" select "Injected Web3". It will ask you to connect your account which you should confirm.
+**3.1.** 在 Remix IDE 的“ENVIRONMENT(环境)”下的“DEPLOY & RUN TRANSACTIONS(部署与运行交易)”模块中,选择 “Injected Web3”。 It will ask you to connect your account which you should confirm.
 
 **3.2** Deploy the EduCoin contract and confirm the transaction in Metamask.
 
@@ -27,11 +27,11 @@ Make sure the EduCoin contract is compiled.
 
 You should now see a balance of 1000 EDC in your wallet.
 
-### 4. Make a transaction
+### 4. 发送交易
 **4.1** Click on the identicon (visual representation of your address) in the Metamask wallet and create a second account (Account 2).
 
 **4.2** Copy the address of Account 2.
 
-**4.3** Switch to the first account (Account 1) and send 250 EDC to Account 2. Check the balances of Account 1 and Account 2. You might need to add the token address again for Account 2 to import the tokens and you will need testeth if you want to make a transaction with this account.
+**4.3** Switch to the first account (Account 1) and send 250 EDC to Account 2. Check the balances of Account 1 and Account 2. 如果要使用Account2进行交易，则可能需要再次为 Account 2 添加EDU代币地址以便于导入代币，并且也需要为Account2申请测试代币。
 
 You can also see your account balances if you look at the contract in Remix and call the `balanceOf` function using the addresses of Account 1 and Account 2.

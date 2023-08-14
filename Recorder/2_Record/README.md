@@ -6,11 +6,11 @@ We are going to:
 - Give voting privileges to 2 additional address (so we have a total of 3 voting addresses).
 - Have one address vote for proposal 1 (0-based index) and the other two vote for proposal 2.
 
-1. Take the 3_Ballot.sol from the sample solidity files and compile it.  Then go to the **Deploy & Run** Module.
+1. 从示例Solidity文件中获取 3_Ballot.sol 并编译它。然后进入 **Deploy & Run** 模块。
 
 2. Select the **JavaScript VM** Environment.
 
-3. In the constructor's parameter - put in **["0x5031000000000000000000000000000000000000000000000000000000000000", "0x5032000000000000000000000000000000000000000000000000000000000000", "0x5033000000000000000000000000000000000000000000000000000000000000"]** Then click the **Deploy** button.
+3. 在构造函数参数中 - 输入 **["0x5031000000000000000000000000000000000000000000000000000000000000", "0x5032000000000000000000000000000000000000000000000000000000000000", "0x5033000000000000000000000000000000000000000000000000000000000000"]** 然后单击**Deploy**按钮。
 
 4. Open up the deployed contract.  
 
@@ -25,6 +25,6 @@ We are going to:
 9. Open up the **Transactions recorded** section of the module - by clicking on the caret. Click the hard disk icon in the **Transactions recorded** section to save your steps.
 ![recorder](https://github.com/ethereum/remix-workshops/blob/master/Recorder/2_Record/images/recorder.png?raw=true "recorder")
 
-10. You will get a modal window that tells you it wants to save a file called **scenario.json**.  Click OK.
+10. 接着会弹出一个窗口，提示是否要保存一个命名为*scenario.json*文件。  Click OK.
 
 11. Click on the function **winningProposal** to confirm that the final proposal won - which is the proposal at position 2 in the array. **0: uint256: winningProposal_ 2**

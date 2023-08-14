@@ -17,11 +17,11 @@ Before the function caller can make a bid, we need to be sure that certain condi
 
 Now we want to store the bid of the current highest bidder before we make a new bid. 
 First, we check if there is a bidder (line 64). If this function call is the first bid then the next line would be irrelevant.
-In our mapping `bids` (line 34) we map the key, the `address` of the bidder, to the value, a `uint` that represents the total amount of ETH a bidder has bid in the auction before withdrawing. 
+我们的mapping `bids` (第34行)中，使用竞价人的`地址`作为map的键，使用竞价人在撤回前的出价的ETH金额作为map的值
 If there is a bidder, we add the last bid (`highestBid`) of the `highestBidder` to the total value of the bids they have made (line 65) before withdrawing.
-We store the bids because we want to enable the bidder to withdraw the ETH they used to make bids if they are no longer the highest bidder.
+We store the bids 因为我们希望当竞价人不再是最高竞买者时可以提取他们的出价金额
 
-Next, we set the `highestBidder` to the account calling the function (line 68), and the `highestBid` to their bid, the value that was sent with the call (line 69).
+Next, we set the `highestBidder` to the account calling the function (line 68), and the `highestBid` to their bid, 金额为该合约调用所发送的金额(第69行)。
 
 Finally, we emit the `Bid` event (line 71).
 

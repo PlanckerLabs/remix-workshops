@@ -19,7 +19,7 @@ For more information, have a look at the <a href="https://github.com/OpenZeppeli
 With the "Pausable" contract module (line 6 and 9) the owner is able to pause (line 14) and unpause (line 18) the contract. In the pause state, tokens can't be transferred, which can be helpful in emergency scenarios.
 For more information, have a look at the <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/Pausable.sol" target="_blank">Pausable contract</a>.
 
-Have a look at the OpenZeppelins <a href="https://docs.openzeppelin.com/contracts/4.x/wizard" target="_blank">Contract Wizard</a>, which allows you to easily add additional functionality.
+请查看 OpenZeppelins 的<a href="https://docs.openzeppelin.com/contracts/4.x/wizard" target="_blank">Contract Wizard</a>, 您可以轻松通过它添加其他功能。
 
 If you successfully completed this course, try the Learneth NFT Course as the next step in your journey.
 

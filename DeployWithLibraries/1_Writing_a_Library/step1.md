@@ -1,11 +1,11 @@
 A libraries looks like a **contract** but use the keyword `library` 
 
-A library typically is a collection of useful functions sitting out there on the blockchain that any contract can use.  Because the library is already deployed, it saves the deployment costs of the many contracts that use it.
+库通常是一个部署在区块链上的函数集合，任何合约都可以使用它们.  因为库已经部署在区块链上了，所以使用库能够节省许多部署合约的成本
 
 In the following contract:
  - Make a library with the name `LibraryForTest`. 
  
- It is possible to put a library in same file with another contract.  So put the library below the contract. 
+ 可以将库与另一个合约放在同一个文件中。  So put the library below the contract. 
  
  This library should have a method called `getFromLib` method which returns `3`.
  

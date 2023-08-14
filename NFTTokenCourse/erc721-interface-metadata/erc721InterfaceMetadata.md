@@ -3,7 +3,7 @@ The metadata extension is optional. It allows us to add additional information t
 ## ERC721 Metadata Functions
 
 ### name
-The function `name` (line 16) returns the name of the token collection. A token collection means all tokens created with your ERC721 token contract implementation. Every token in this collection will have this name, regardless of their tokenId.
+函数`name`(第 16 行)返回代币集合的名称。代币集合意味着使用你的 ERC721 代币合约实现创建的所有代币。此集合中的每个代币都具有此名称,而不管其 tokenId 如何。
 
 ### symbol
 The function `symbol` (line 21) returns the symbol of the token collection.
@@ -34,6 +34,6 @@ The file that the tokenURI points to should conform to the Metadata JSON Schema 
     }
 }
 ```
-The root element must be of the type object. This root object should have properties with the keys: name, description, and image that should be all of the type string.
+根元素必须是对象类型。这个根对象应该有名为 name、description 和 image 的属性,它们应该都是字符串类型。
 
-The ERC721 standard is pretty flexible, the tokenURI does not need to point to a JSON document and the JSON does not need to have all properties and often has additional properties.
+ERC721 标准非常灵活, tokenURI 不需要指向一个 JSON 文档,并且 JSON 不需要有所有属性,而且通常还有其他附加属性。

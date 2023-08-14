@@ -1,6 +1,6 @@
 # Delegate call
 
-It's a special variant of a **message call**, which is identical to a message call apart from the fact that the code at the target address is executed in the context of the calling contract so **msg.sender** and **msg.value** do not change their values.
+它是**message call**的一种特殊变体，它与我**message call**基本一致，唯一的区别是目标地址的代码是在调用合约的上下文中执行，因此**msg.sender**和**msg.value**不变。
 
 This means that a contract can dynamically load code from a different address at runtime. 
 

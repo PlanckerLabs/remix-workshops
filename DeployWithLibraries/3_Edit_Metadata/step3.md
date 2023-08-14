@@ -1,11 +1,11 @@
 The `Deploy` property in `sampleContract.json` contains everything you need for telling Remix IDE the address of the library for a specific network.
 
- - `<address>` contains the address of the library that is already deployed. You have to specify this address for each network.
+ - `<address>` 包含已经部署库的地址。您需要为每个网络指定这个地址。
  - `autoDeployLib` is a boolean and tells Remix IDE if it should autodeploy the library before deploying the contract.
 
-Basically if `autoDeployLib` is **true**, the `<address>` will not be used and Remix will automatically deploy the library before deploying the contract.
+如果 `autoDeployLib` 为 **true**, 这个 `<address>` 则不会被使用，Remix 将自动在部署合约之前首先部署一个新的库合约
 
-For the purpose of this demo - we are mimicking a situation where the library has already been deployed because this is a more common situation. 
+在这个 demo 中 - 我们模拟已经库已经被部署的情况，因为这是更常见的情况。
 
 So set `autoDeploy` to **false**, for the `VM:-` entry.
 

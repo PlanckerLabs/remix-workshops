@@ -6,25 +6,25 @@ Blockchain tokens are a new technological building block created by blockchain t
 In the context of web3, tokens represent ownership. Tokens can represent ownership of anything: art, reputation, items in a video game, shares in a company, voting rights, or currencies.
 
 The revolutionary innovation of blockchain technology is that it allows data to be stored publicly in an immutable (unchangeable) way.
-This new form of data storage allows us to keep track of ownership and enable truly ownable digital items for the first time.
+这种新的数据存储形式使我们能够跟踪所有权,并首次实现真正可控制的数字项目。
 
-Blockchain Technology was originally invented to keep track of the ownership of Bitcoin, a decentralized digital currency and fungible token.
+区块链技术最初是为了跟踪比特币的所有权而发明的,比特币是一种去中心化的数字货币和可替代代币。
 
 ### Fungible and non-fungible tokens
-Assets like money: Bitcoin or a one-dollar bill, for example, are fungible. Fungible means that all assets are the same and are interchangeable. Assets like art, collectibles, or houses are non-fungible; they are all different and not interchangeable.   
+Assets like money: Bitcoin or a one-dollar bill, for example, are fungible. Fungible means that all assets are the same and are interchangeable. Assets like art, collectibles, or houses are non-fungible; they are all different and not interchangeable.
 
 We can divide tokens into these two types: fungible tokens, where all tokens are the same, and non-fungible tokens (NFTs), where every token is unique.
 
 ### Token standard
 The behavior of a token is specified in its smart contract (token contract). The contract could, for example, include the functionality to transfer a token or check for its total supply.
 
-If everybody would create their own token contracts with different behavior and naming conventions, it would make it very hard for people to build contracts or applications that are able to interact with each other.
+如果每个人都用不同的行为和命名约定创建自己的代币合约,那么人们就很难构建能够相互交互的合约或应用程序。
 
 The Ethereum community has developed token standards that define how a developer can create tokens that are interoperable (able to work with others) with other contracts, products, and services. Contracts developed under these standards need to include a certain set of functions and events.
 
-The most popular token standards are the ERC20 for fungible tokens and the ERC721 for non-fungible tokens. In this course, we will learn how to create and interact with NFTs, tokens created with the ERC721 token standard.
+The most popular token standards are the ERC20 for fungible tokens and the ERC721 for non-fungible tokens. 在本课程中,我们将学习如何创建和交互 NFT,即使用 ERC721 代币标准创建的代币。
 
-If you want to learn more about fungible tokens and the ERC20 token standard, have a look at the Learneth ERC20 Token Course. 
+如果您想了解更多关于同质化代币和 ERC20 代币标准的信息,请查看 Learneth ERC20 代币课程。
 
 The ERC777 is a fungible token standard, like the ERC20, that includes more advanced features like hooks while remaining backward compatible with ERC20. Learn more about the ERC777 in its <a href="https://eips.ethereum.org/EIPS/eip-777" target="_blank">EIP (Ethereum improvement proposal)</a>.
 

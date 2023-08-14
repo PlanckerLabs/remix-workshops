@@ -81,8 +81,8 @@ This is how the JSON for the second token could look:
 As shown above, the folder in this example is called "geo-json". Inside this folder, we have three JSON files. 
 The first JSON file is called "0", the second JSON file is called "1", and the third JSON file is called "2".
 
-Make sure that your JSON files don't have a file ending and are named like their corresponding tokenIds.
-In the pin manager on pinata.cloud, click on the upload button and upload the folder with your JSON files.
+确保您的 JSON 文件没有文件扩展名,并且文件名与其对应的 tokenId 相同。
+在 pinata.cloud 上的 pin manager 中,点击上传按钮并上传带有 JSON 文件的文件夹。
 
 To access your folder on IPFS, enter this address "https://ipfs.io/ipfs/" and add your CID. 
 For our current example, you can access your folder by using:
@@ -96,7 +96,6 @@ You can access a specific JSON file then by just adding a slash and the tokenId 
     https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp/0
 </a>
 
-In the contract, replace the baseURI with your own baseURI. In this example, the baseURI consists of the URL 
-"https://ipfs.io/ipfs/", the CID containing the JSON files, and a slash at the end "/".
+在合约中,用您自己的 baseURI 替换 baseURI。 在这个例子中, baseURI 由 URL "https://ipfs.io/ipfs/"、包含 JSON 文件的 CID 和末尾的斜杠 "/" 组成。
 
 An individual tokenURI will now be created for each token by adding the tokenId to the baseURI — exactly what we did manually in the example above to access the JSON file.

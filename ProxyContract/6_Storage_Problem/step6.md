@@ -4,7 +4,7 @@ Things are more complicated once we need to deal with state variables.  State va
 
  `storage`: is a mapping; each value stored there is persisted and saved on chain.
 
-*Note: Statically-sized state variables (everything except mapping and dynamically-sized array types) are laid out contiguously in storage starting from position 0. Multiple, contiguous items that need less than 32 bytes are packed into a single storage slot if possible. For contracts that use inheritance, the ordering of state variables is determined by the C3-linearized order of contracts starting with the most base-ward contract*
+*Note: 静态大小状态变量（除了映射和动态数组类型之外的所有类型）从位置0开始连续地存储在storage中。 如果可能，多个连续的小于32字节的项目将被打包到单个存储槽中。 For contracts that use inheritance, the ordering of state variables is determined by the C3-linearized order of contracts starting with the most base-ward contract*
 
 Once we execute **delegate call**, the storage of both contracts get **"merged"** into a single messy state.
 

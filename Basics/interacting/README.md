@@ -3,7 +3,7 @@
 1. Once a contract has been successfully deployed, at the bottom of the Deploy and Run plugin, open up the contract by clicking the caret - so the caret points down.
 ![deploy contract](https://raw.githubusercontent.com/ethereum/remix-workshops/master/Basics/interacting/images/instance.png "deployed contract")
 
-2. There are 2 functions in this contract.  Clicking the caret to the right of changeOwner (outlined in red below) will open up the inputs so that you can put in the parameters in separate input boxes.
+2. There are 2 functions in this contract.  Clicking the caret to the right of changeOwner (如下图红色框所示) will open up the inputs so that you can put in the parameters in separate input boxes.
    
 ![deploy contract](https://raw.githubusercontent.com/ethereum/remix-workshops/master/Basics/interacting/images/deployed_open2.png "deployed contract")
 
@@ -15,5 +15,5 @@ If this contract had imported other contracts, then the functions of the importe
 
 5. In the Remix VM, you don't need to approve a transaction.  When using a more realistic test environment or when using the mainnet - you will need to approve the transactions for them to go through. Approving a transaction costs gas. 
 
-6. Choosing a public network is not done in Remix but in your Browser Wallet (typically Metamask).  There is a plug icon to the right of the Environment title that links to chainlist.org where you can get the specs of the chain you want to interact with.
+6. Choosing a public network is not done in Remix but in your Browser Wallet (typically Metamask).  环境标题右侧有一个插头图标能链接到 chainlist.org，在那里可以获取与目标链交互的必要信息
 ![chainlist](https://raw.githubusercontent.com/ethereum/remix-workshops/master/Basics/interacting/images/chainlist.png "chainlist")

@@ -54,7 +54,7 @@ We will transfer EduCoin from one account to a second account.
 <img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_transfer.gif?raw=true" alt="Test transfer function" width="300"/>
 
 #### 2.7 Approve
-We will now allow account 1 to spend tokens on behalf of account 2.
+现在，我们将允许账号1代表账号2使用代币。
 
 **2.7.1** Go to the "Account" section, copy the address of account 1, then set it to account 2 again.
 

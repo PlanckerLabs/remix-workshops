@@ -5,13 +5,12 @@ Have a look at their implementation of a <a href="https://github.com/OpenZeppeli
 ## myToken 
 We create our own contract called MyToken (line 7), which inherits (line 7) the functionality from the OpenZepplin `ERC721` token contract implementation and `Ownable` that we imported (line 4). If you don't remember the Ownable contract module, have a look at the ERC20 extensions section.
 
-This ERC721 implementation makes use of the IERC721Metadata extension that is specified in the EIP. Our contract inherits the functions `name()` and `symbol()` 
-and has a constructor that allows their values to be set during the deployment of the contract (line 8). 
-In this case, we are going to use the default values. We name our token the same as the contract `"MyToken"` and make `"MTK"` its symbol.
+这个 ERC721 实现利用了 EIP 中指定的 IERC721Metadata 扩展。我们的合约继承了 `name()` 和 `symbol()` 函数,并有一个构造函数,允许在部署合约时设置它们的值(第 8 行)。
+在这种情况下,我们将使用默认值。我们将代币命名为与合约相同的 `"MyToken"`,并将其符号设置为 `"MTK"`。
 
 ### Base URI
 With an ERC721 contract, we are able to mint various tokens, each with its own tokenId. As we saw in the IERC721Metadata interface, each token can have its own `tokenURI`, which typically points to a JSON file to store metadata like name, description, and image link.
-If a contract mints multiple tokens, ERC721 implementations often use the same URI as a base (`baseURI`) for all tokens and only differentiate them by adding their unique `tokenId` at the end via concatenation. In the next part, we will see what this looks like in practice.
+如果一个合约铸造多个代币,ERC721 实现通常会对所有代币使用相同的 URI 作为基础(`baseURI`),并仅通过在末尾连接其唯一的`tokenId`来区分它们。
 
 In this example, we are storing our data on IPFS — more on that in the next section. Our baseURI is <a href="https://ipfs.io/ipfs/QmUYLUKwqX6CaZxeiYGwmAYeEkeTsV4cHNZJmCesuu3xKy/" target="_blank">https://ipfs.io/ipfs/QmUYLUKwqX6CaZxeiYGwmAYeEkeTsV4cHNZJmCesuu3xKy/</a> (line 11).
 Through concatenation the tokenURI for the token with the id 0 would be <a href="https://ipfs.io/ipfs/QmUYLUKwqX6CaZxeiYGwmAYeEkeTsV4cHNZJmCesuu3xKy/0" target="_blank">https://ipfs.io/ipfs/QmUYLUKwqX6CaZxeiYGwmAYeEkeTsV4cHNZJmCesuu3xKy/0</a> , the tokenURI for the token with the id 1 would be <a href="https://ipfs.io/ipfs/QmUYLUKwqX6CaZxeiYGwmAYeEkeTsV4cHNZJmCesuu3xKy/1" target="_blank">https://ipfs.io/ipfs/QmUYLUKwqX6CaZxeiYGwmAYeEkeTsV4cHNZJmCesuu3xKy/1</a>, and so on.
@@ -19,8 +18,7 @@ Through concatenation the tokenURI for the token with the id 0 would be <a href=
 When using IPFS and you run into "504 Gateway Time-out" errors, you might have to wait and retry until the data is available.
 
 ### safeMint
-With the safeMint function (line 14) we enable the owner to create new tokens with a dedicated token id after contract deployment.
-The safeMint function is part of the ERC721 implementation of OpenZeppelin and lets us safely mint a token with the id `tokenId` to the account with the address `to`. For access control, we use the `onlyOwner` modifier from the Ownable access control contract module that we imported (line 5).
+通过 safeMint 函数(第 14 行),我们可以在合约部署后使用专用的 token id 为所有者创建新代币。safeMint 函数是 OpenZeppelin 的 ERC721 实现的一部分,它允许我们安全地为地址`to`的账户铸造 ID 为`tokenId`的代币。 对于访问控制,我们使用从导入的 Ownable 访问控制合约模块中获取的`onlyOwner`修改器(第 5 行)。
 
 In the next section, we will see how we can create and host the metadata for our NFTs.
 

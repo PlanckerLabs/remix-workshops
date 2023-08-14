@@ -1,4 +1,4 @@
-The goal here is to store the code in the blockchain. The EVM needs to tell the client (geth, parity) which what part of the **Call Data** to store.   In this step, we are saving the contract MINUS its constructor (because that gets inplmented only 1 time) and MINUS the input parameter does not need to be stored.
+这里的目标是在区块链中存储代码。EVM 需要告诉客户端(geth、parity)保存 **Call Data** 的哪一部分。在此步骤中,我们保存合约本身但是不包含其构造函数(因为它只执行一次)，也不需要存储输入参数。
 
 
 `CODECOPY` is the first step: it copies the bytecode to memory, then the ethereum client will be able to consume it.  MUNCH! 
@@ -52,8 +52,7 @@ The input data from the **Call Data** panel is:
 
 This shows us that `(X)` is a subset of the original calldata `(Y)`:
 
-`(X)` is calldata without the input parameter `0000000000000000000000000000000000000000000000000000000000000002` (we don't need to store this)
-and without the constructor code `6080604052348015600f57600080fd5b506040516093380380609383398181016040526020811015602f57600080fd5b81019080805190602001909291905050508060008190555050603e8060556000396000f3fe` which should be executed only 1 time.
+`(X)`是调用数据，不含输入参数 `0000000000000000000000000000000000000000000000000000000000000002`(我们不需要存储这个)和不含构造函数代码 `6080604052348015600f57600080fd5b506040516093380380609383398181016040526020811015602f57600080fd5b81019080805190602001909291905050508060008190555050603e8060556000396000f3fe`，后者应该只执行 1 次。
 
 
 So `CODECOPY` extracts the bytecode from the calldata and copies it to the memory.

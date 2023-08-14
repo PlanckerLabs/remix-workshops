@@ -22,7 +22,7 @@ The function `transfer` (line 27) transfers `amount` of tokens to the address `r
 This function **must** emit (produce) a `Transfer` event (see below) and **should** throw an exception when the sender doesn't have enough tokens to make the transfer.
 
 ### approve
-The function `approve` (line 52) creates an allowance for the address `spender` to transfer `amount` of tokens on behalf of the account calling the function.
+函数 `approve`（第52行）为地址 `spender` 创建一个许可，使得 `spender` 可以以函数调用账户的身份转移一定 `数量` 的代币。
 
 ### allowance
 The function `allowance` (line 36) returns the amount of tokens that the address `spender` is allowed to spend on behalf of the account with the address `owner`.
@@ -35,7 +35,7 @@ This function **must** emit a `Transfer` event.
 ERC20 contracts must also emit two events:
 
 ### Transfer
-The `Transfer` (line 71) event must be emitted when `value` amount of tokens are transferred from the account with the address `indexed from` to `indexed to`. The parameters `from` and `to` are `indexed` allowing us to search for these events using the indexed parameters as filters.
+当从 `indexed from` 帐户向 `indexed to` 帐户转移 `value` 数量的代币时，必须发出 `Transfer`（第71行）事件。参数 `from` 和 `to` 是 `indexed` ，允许我们使用这些参数作为过滤器搜索这些事件。
 
 ### Approval
 The `Approval` (line 77)  event must be emitted when the account `indexed owner` approves the account `indexed spender` to transfer `value` amount of tokens on its behalf.

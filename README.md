@@ -21,14 +21,14 @@ We are here to help.
 
 **5. You may need to sign into Github**
 
-Github will block too many requests from the same location - unless you are signed into github and input a token.  This is only an issue during workshops - but because we are in a workshop, we need to do these steps:
+除非您已登录 github 并输入了token，否则 Github 会阻止来自同一位置的过多请求。  This is only an issue during workshops - but because we are in a workshop, we need to do these steps:
 
-    - In one browser window - go to remix.ethereum.org and go to the settings tab
+    - 在一个浏览器窗口中 - 转到remix.ethereum.org并转到设置选项
     - In another browser window go to: 
     
     https://github.com/settings/tokens 
     
-    and create a new token and save it in Remix in the you just opened on the settings tab.
+    创建新token，并将其保存在刚打开的设置选项上的 Remix 中。
 
 ---
 ### To write more tutorials for LEARNETH:

@@ -4,7 +4,7 @@ Have a look at their nicely documented <a href="https://github.com/OpenZeppelin/
 
 We will create our own contract called MyToken (line 6), which inherits the functionality from the OpenZepplin ERC20 token contract implementation that we imported (line 4).
 
-This contract implements the optional functions `name()` and `symbol()` of the ERC20 Token standard and has a constructor where their values can be set during the deployment of the contract (line 7).
+该合约实现了ERC20 Token标准中可选函数`name()`和`symbol()`，并具有构造函数，可以在部署该合约时设置构造函数参数（第7行）
 In this case, we are going to use the default values. We will call our token the same as the contract `"MyToken"` and make `"MTK"` its symbol.
 
 Next, we make use of the inherited `_mint` function (line 8) that allows us to create tokens upon deployment of the contract. Inside the parameters, we specify the address of the account that receives the tokens and the amount of tokens that are created. 

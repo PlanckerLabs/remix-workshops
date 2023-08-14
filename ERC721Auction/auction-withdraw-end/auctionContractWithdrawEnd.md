@@ -1,7 +1,7 @@
 In this section, we will finish the contract, create a function to withdraw the bids that an account has made, and create a function to end the auction.
 
 ### Withdraw
-We create a local variable `bal` (balance) that stores the total value of bids that the function caller has made (line 75) since their last withdrawal. We can assign this value to `bal` by accessing the bids mapping using the address of the function caller as the key.
+We create a local variable `bal` (balance) that stores the total value of bids that the function caller has made (line 75) since their last withdrawal. 我们可以使用函数调用者地址作为键访问bids map，并将该值赋给 `bal`。
 
 Next, we set the value of the address of the function caller to 0 in the bids mapping because they will withdraw the total value of their bids (line 76).
 

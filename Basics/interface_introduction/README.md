@@ -6,7 +6,7 @@
 - Editing code happens in tabs in the **Main Panel**.
 - The results of transactions and other actions are visible in the **Terminal**. 
 - Switching between plugins happens in the **Icons Panel**.
-- To make a panel larger, drag its border.
+- 拖动边框可以放大面板
 
 Try clicking an icon in the **Icons Panel** to go to another plugin.  Click the **Solidity Compiler** icon and then the **Deploy & Run** icon.  Then come back **LearnEth**.
 
