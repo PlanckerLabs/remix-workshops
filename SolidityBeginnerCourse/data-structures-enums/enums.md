@@ -1,6 +1,6 @@
 In Solidity *enums* are custom data types consisting of a limited set of constant values. We use enums when our variables should only get assigned a value from a predefined set of values. 
 
-In this contract, the state variable `status` can get assigned a value from the limited set of provided values of the enum `Status` representing the various states of a shipping status.
+在这个合约中，状态变量`status`可以从表示转换状态的枚举`Status`提供的有限值集合中分配一个值。
 
 
 ### Defining enums
@@ -9,7 +9,7 @@ We define an enum with the enum keyword, followed by the name of the custom type
 ### Initializing an enum variable
 We can initialize a new variable of an enum type by providing the name of the enum, the visibility, and the name of the variable (line 16). Upon its initialization, the variable will be assigned the value of the first member of the enum, in this case, Pending (line 7).
 
-Even though enum members are named when you define them, they are stored as unsigned integers, not strings. They are numbered in the order that they were defined, the first member starting at 0. The initial value of status, in this case, is 0.
+Even though enum members are named when you define them, 但是他们不是以字符串的形式存储的，而是以无符号整数的形式。. They are numbered in the order that they were defined, the first member starting at 0. The initial value of status, in this case, is 0.
 
 ### Accessing an enum value
 To access the enum value of a variable, we simply need to provide the name of the variable that is storing the value (line 25).
@@ -22,7 +22,7 @@ We can use the delete operator to delete the enum value of the variable, which m
 
 <a href="https://www.youtube.com/watch?v=yJbx07N15j0" target="_blank">Watch a video tutorial on Enums</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Define an enum type called `Size` with the members `S`, `M`, and `L`.
 2. Initialize the variable `sizes` of the enum type `Size`.
 3. Create a getter function `getSize()` that returns the value of the variable `sizes`.

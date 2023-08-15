@@ -19,7 +19,7 @@ Learn more about *gas* on <a href="https://ethereum.org/en/developers/docs/gas/"
 
 <a href="https://www.youtube.com/watch?v=oTS9uxU6cAM" target="_blank">Watch a video tutorial on Gas and Gas Price</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 Create a new `public` state variable in the `Gas` contract called `cost` of the type `uint`. Store the value of the gas cost for deploying the contract in the new variable, including the cost for the value you are storing.
 
 Tip: You can check in the Remix terminal the details of a transaction, including the gas cost. You can also use the Remix plugin *Gas Profiler* to check for the gas cost of transactions.

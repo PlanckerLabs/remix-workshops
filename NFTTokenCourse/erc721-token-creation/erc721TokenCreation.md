@@ -22,7 +22,7 @@ When using IPFS and you run into "504 Gateway Time-out" errors, you might have t
 
 In the next section, we will see how we can create and host the metadata for our NFTs.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Rename your contract to `Geometry`.
 2. Rename your token to `Geometry`.
 3. Change the symbol of your token to `GEO`.

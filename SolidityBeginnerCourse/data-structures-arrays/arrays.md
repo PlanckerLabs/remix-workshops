@@ -9,7 +9,7 @@ There are two types of arrays, compile-time *fixed-size* and *dynamic arrays*. F
 ### Declaring arrays
 We declare a fixed-size array by providing its type, array size (as an integer in square brackets), visibility, and name (line 9).
 
-We declare a dynamic array in the same manner. However, we don’t provide an array size and leave the brackets empty (line 6).
+我们以相同方式声明动态数组。但是我们不需要提供数组大小，且是留一个空括号（第6行）。
 
 ### Initializing arrays
 We can initialize the elements of an array all at once (line 7), or initiate new elements one by one (arr[0] = 1;). If we declare an array, we automatically initialize its elements with the default value 0 (line 9).
@@ -32,6 +32,6 @@ Using the length member, we can read the number of elements that are stored in a
 
 <a href="https://www.youtube.com/watch?v=vTxxCbwMPwo" target="_blank">Watch a video tutorial on Arrays</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Initialize a public fixed-sized array called `arr3` with the values 0, 1, 2. Make the size as small as possible.
 2. Change the `getArr()` function to return the value of `arr3`.

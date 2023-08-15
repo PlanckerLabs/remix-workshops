@@ -21,4 +21,4 @@ So for this example choose **Injected Web3** in the Deploy & Run module and have
 
 From the terminal, execute `remix.execute()`. This command will execute the current JavaScript file with the line `let blockNumber = await web3.eth.getBlockNumber()`.
 
-In the console, you should see the current block number of the chain that metamask is connected to.
+在控制台中，你可以看到与metamask相连接的区块链的当前区块号

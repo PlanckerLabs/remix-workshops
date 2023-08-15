@@ -28,5 +28,5 @@ If you compile and deploy the two contracts, you will not be able to call the fu
 
 <a href="https://www.youtube.com/watch?v=NBzQVJ6OrrQ" target="_blank">Watch a video tutorial on Visibility</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 Create a new function in the `Child` contract called `testInternalVar` that returns the values of all state variables from the `Base` contract that are possible to return.

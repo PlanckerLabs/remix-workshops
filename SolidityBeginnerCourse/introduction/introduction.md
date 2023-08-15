@@ -22,7 +22,7 @@ We will talk about these concepts in our sections about **Functions - Reading an
 
 3. We expand the token contract functions in the IDE, and test its `get`, `inc`, and `dec` functions.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 Throughout this course, we will give you assignments to test and consolidate your newly acquired knowledge.
 
 Your first assignment is to:

@@ -64,7 +64,7 @@ If you change the parameter type for the functions `sendViaTransfer` and `sendVi
 
 <a href="https://www.youtube.com/watch?v=_5vGaqgzlG8" target="_blank">Watch a video tutorial on Sending Ether</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 Build a charity contract that receives Ether that can be withdrawn by a beneficiary.
 
 1. Create a contract called `Charity`.

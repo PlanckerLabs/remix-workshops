@@ -3,7 +3,7 @@ Solidity supports iterative control flow statements that allow contracts to exec
 Solidity differentiates between three types of loops: `for`, `while`, and `do while` loops.
 
 ### for
-Generally, `for` loops (line 7) are great if you know how many times you want to execute a certain block of code. In solidity, you should specify this amount to avoid transactions running out of gas and failing if the amount of iterations is too high.
+Generally, `for` loops (line 7) are great if you know how many times you want to execute a certain block of code. 在Solidity中，你应该指定循环数量避免执行循环的次数过多导致交易用尽gas从而执行失败
 
 ### while
 If you don’t know how many times you want to execute the code but want to break the loop based on a condition, you can use a `while` loop (line 20).
@@ -20,7 +20,7 @@ The `break` statement is used to exit a loop. In this contract, the break statem
 
 <a href="https://www.youtube.com/watch?v=SB705OK3bUg" target="_blank">Watch a video tutorial on Loop statements</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Create a public `uint` state variable called count in the `Loop` contract.
 2. At the end of the for loop, increment the count variable by 1.
 3. Try to get the count variable to be equal to 9, but make sure you don’t edit the `break` statement.

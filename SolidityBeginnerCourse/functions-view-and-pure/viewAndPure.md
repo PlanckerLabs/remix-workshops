@@ -35,5 +35,5 @@ In Solidity development, you need to optimise your code for saving computation c
 
 <a href="https://www.youtube.com/watch?v=vOmXqJ4Qzbc" target="_blank">Watch a video tutorial on View and Pure Functions</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 Create a function called `addToX2` that takes the parameter `y` and updates the state variable `x` with the sum of the parameter and the state variable `x`.

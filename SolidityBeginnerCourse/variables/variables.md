@@ -18,7 +18,7 @@ A list of all Global Variables is available in the <a href="https://docs.solidit
 
 Watch video tutorials on <a href="https://www.youtube.com/watch?v=hl692-xJPUQ" target="_blank">State Variables</a>, <a href="https://www.youtube.com/watch?v=5Gxzwn0SQDU" target="_blank">Local Variables</a>, and <a href="https://www.youtube.com/watch?v=ryA86ZiSD-w" target="_blank">Global Variables</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Create a new public state variable called `blockNumber`.
 2. Inside the function `doSomething()`, assign the value of the current block number to the state variable `blockNumber`.
 

@@ -19,7 +19,7 @@ If the first condition (line 6) of the foo function is not met, but the conditio
 
 <a href="https://www.youtube.com/watch?v=Ld8bFWXLSfs" target="_blank">Watch a video tutorial on the If/Else statement</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 Create a new function called `evenCheck` in the `IfElse` contract: 
 - That takes in a `uint` as an argument.
 - The function returns `true` if the argument is even, and `false` if the argument is odd.

@@ -23,7 +23,7 @@ For more information, have a look at the <a href="https://github.com/OpenZeppeli
 
 If you successfully completed this course, try the Learneth NFT Course as the next step in your journey.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Try to mint tokens to an account after deployment. Call `totalSupply()` and `balanceOf()` to confirm the correct execution.
 2. Burn tokens and then call `totalSupply()` and `balanceOf()` to confirm the correct execution.
 3. Test the pause function by pausing the contract using the owner account and trying to make a transfer with a second account. The transaction should not be able to be executed and will throw the exception: "Pausable: paused".

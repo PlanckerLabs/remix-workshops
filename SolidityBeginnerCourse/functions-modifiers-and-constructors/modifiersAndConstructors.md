@@ -7,10 +7,10 @@ This first part of this contract is about changing ownership of a contract. Owne
 
 The function `changeOwner` (line 33) can change this ownership. It takes an input parameter of the type `address` and assigns its value to the state variable `owner`.
 
-However, this function cannot simply be executed under all conditions; it has two modifiers, `onlyOwner` and `validAddress`.
+但是这个函数并不是在所有情况下都能执行；它有两个修饰符：`onlyOwner` 和 `validAddress`。
 
 Let's look at `onlyOwner` first (line 18). 
-Function modifiers are defined with the `modifier` keyword and a unique name; they can also have parameters. 
+函数修饰符是通过`modifier`关键字以及一个唯一的修饰符名称进行定义，修饰符也可以定义参数
 
 The underscore `_` (line 23) is used inside modifiers to represent the rest of the code that will be executed in the body of the modified function.
 The code you place before the underscore in the modifier will be executed before the code in the body of the modified function. The code after the underscore will be executed after the code in the body of the modified function.
@@ -28,7 +28,7 @@ You declare a constructor using the `constructor` keyword. The constructor in th
 
 <a href="https://www.youtube.com/watch?v=b6FBWsz7VaI" target="_blank">Watch a video tutorial on Function Modifiers</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Create a new function, `increaseX` in the contract. The function should take an input parameter of type `uint` and increase the value of the variable `x` by the value of the input parameter.
 2. Make sure that x can only be increased.
 3. The body of the function `increaseX` should be empty.

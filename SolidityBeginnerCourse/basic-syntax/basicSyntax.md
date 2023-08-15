@@ -2,7 +2,7 @@ In this section, we will create our first *smart contract*. This contract only c
 
 In the first line, we should specify the license that we want to use. You can find a comprehensive list of licenses here: <a href="https://spdx.org/licenses/" target="_blank">https://spdx.org/licenses/</a>.
 
-Using the `pragma` keyword (line 3), we specify the Solidity version we want the compiler to use. In this case, it should be greater than or equal to `0.8.3` but less than 0.9.0.
+在第三行中，使用`pragma`关键字指定我们希望编译器使用的solidity版本. In this case, it should be greater than or equal to `0.8.3` but less than 0.9.0.
 
 We define a contract with the keyword `contract` and give it a name, in this case, `HelloWorld` (line 5).
 
@@ -18,7 +18,7 @@ To help you understand the code, we will link in all following sections to video
 
 <a href="https://www.youtube.com/watch?v=g_t0Td4Kr6M" target="_blank">Watch a video tutorial on Basic Syntax</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Delete the HelloWorld contract and its content.
 2. Create a new contract named "MyContract".
 3. The contract should have a public state variable called "name" of the type string.

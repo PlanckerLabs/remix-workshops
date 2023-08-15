@@ -36,9 +36,9 @@ Assignments between *storage* and *memory* (or *calldata*) create independent co
 
 If we were to create a new struct `myMemStruct3` with the data location *memory* inside the `function f` (line 12) and assign it the value of `myStruct`, changes in `myMemStruct3` would not affect the values stored in the mapping `myStructs` (line 10).
 
-As we said in the beginning, when creating contracts we have to be mindful of gas costs. Therefore, we need to use data locations that require the lowest amount of gas possible.
+As we said in the beginning, when creating contracts we have to be mindful of gas costs. 因此，我们需要尽可能使用消耗gas最少的数据位置。
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. Change the value of the `myStruct` member `foo`, inside the `function f`, to 4.
 2. Create a new struct `myMemStruct2` with the data location *memory* inside the `function f` and assign it the value of `myMemStruct`. Change the value of the `myMemStruct2` member `foo` to 1.
 3. Create a new struct `myMemStruct3` with the data location *memory* inside the `function f` and assign it the value of `myStruct`. Change the value of the `myMemStruct3` member `foo` to 3.

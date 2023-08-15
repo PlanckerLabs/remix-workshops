@@ -1,7 +1,7 @@
 In this section, we will learn more about the inputs and outputs of functions. 
 
 ### Multiple named Outputs
-Functions can return multiple values that can be named and assigned to their name.
+函数可以返回多个值，且这些返回值可以进行命名。
 
 The `returnMany` function (line 6) shows how to return multiple values.
 You will often return multiple values. It could be a function that collects outputs of various functions and returns them in a single function call for example. 
@@ -25,9 +25,9 @@ From the <a href="https://docs.soliditylang.org/en/latest/types.html#mapping-typ
 
 Arrays can be used as parameters, as shown in the function `arrayInput` (line 71). Arrays can also be used as return parameters as shown in the function `arrayOutput` (line 76).
 
-You have to be cautious with arrays of arbitrary size because of their gas consumption. While a function using very large arrays as inputs might fail when the gas costs are too high, a function using a smaller array might still be able to execute.
+由于gas消耗有限制，您必须谨慎使用任意大小的数组。. 使用非常大的数组作为输入可能会导致gas开销过高而失败，使用较小的数组便能够正常执行。
 
 <a href="https://www.youtube.com/watch?v=je7dWT6bEZM" target="_blank">Watch a video tutorial on Function Outputs</a>.
 
-## ⭐️ Assignment
+## ⭐️ 作业
 Create a new function called `returnTwo` that returns the values `-2` and `true` without using a return statement.
