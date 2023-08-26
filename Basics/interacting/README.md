@@ -1,6 +1,6 @@
 ## 访问已部署合约中的函数
 
-1. 一旦一个合约成功地被部署，在“Deploy and Run”插件底部，通过点击小三角形展开该合约 - 使其指向下方。
+1. 一旦一个合约成功地被部署，通过点击在“Deploy and Run”插件底部的小三角形打开该合约 (打开后小三角形会指向下方)。
 ![deploy contract](https://raw.githubusercontent.com/ethereum/remix-workshops/master/Basics/interacting/images/instance.png "deployed contract")
 
 2. 这个合约有两个函数。点击changeOwner右侧的小三角形（如下图红色框所示），将打开输入框，以便您可以在单独的输入框中放入参数。
