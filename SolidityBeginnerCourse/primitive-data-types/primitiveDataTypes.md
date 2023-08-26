@@ -23,6 +23,6 @@
 ## ⭐️ 作业
 1. 创建一个名为`newAddr`的`public` `address` 变量，并给其赋一个不同于现有变量 `addr` 的值。
 2. 创建一个名为`neg`的`public`负数变量，并确定其类型。
-3. Create a new variable, `newU` that has the smallest `uint` size type and the smallest `uint` value and is `public`.创建一个新变量`newU`，它具有最小的`uint`大小类型和最小的`uint`值，并且是`public`的。
+3. 创建一个新变量`newU`，它具有最小的`uint`大小类型和最小的`uint`值，并且是`public`的。
 
 提示：查看合约中的其他地址或在互联网上搜索以太坊地址。

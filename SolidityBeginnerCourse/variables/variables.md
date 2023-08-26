@@ -13,10 +13,9 @@
 
 所有全局变量列表都可以在<a href="https://docs.soliditylang.org/en/latest/cheatsheet.html?highlight=Variables#global-variables" target="_blank">Solidity文档</a>中找到。
 
-Watch video tutorials on <a href="https://www.youtube.com/watch?v=hl692-xJPUQ" target="_blank">State Variables</a>, <a href="https://www.youtube.com/watch?v=5Gxzwn0SQDU" target="_blank">Local Variables</a>, and <a href="https://www.youtube.com/watch?v=ryA86ZiSD-w" target="_blank">Global Variables</a>.
 观看关于<a href="https://www.youtube.com/watch?v=hl692-xJPUQ" target="_blank">状态变量</a>, <a href="https://www.youtube.com/watch?v=5Gxzwn0SQDU" target="_blank">局部变量</a>, and <a href="https://www.youtube.com/watch?v=ryA86ZiSD-w" target="_blank">全局变量</a>的视频教程吧！
 
-## ⭐️ Assignment
+## ⭐️ 作业
 1. 创建一个public类型的`状态变量`，命名为`blockNumber`。
 2. 在函数`doSomething()`内，将当前区块号的值赋给状态变量`blockNumber`。
 

@@ -17,7 +17,7 @@ ERC20标准仅描述了合约所需和可选的功能，但您可以添加其他
 ### 暂停
 使用“Pausable”合约模块（第6和9行），所有者可以暂停（第14行）和启用（第18行）合约。在暂停状态下，无法转移代币，这在紧急情况下可能会有所帮助。有关更多信息，请查看<a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/Pausable.sol" target="_blank">Pausable 合约</a>.。
 
-请查看<a href="https://docs.openzeppelin.com/contracts/4.x/wizard" target="_blank">Contract Wizard</a>，它使您可以轻松添加其他功能。
+请查看 OpenZeppelins 的<a href="https://docs.openzeppelin.com/contracts/4.x/wizard" target="_blank">Contract Wizard</a>, 您可以轻松通过它添加其他功能。
 
 如果您成功完成了此课程，请尝试学习 NFT 课程作为您旅程的下一步。
 

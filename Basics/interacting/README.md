@@ -3,7 +3,7 @@
 1. 一旦一个合约成功地被部署，在“Deploy and Run”插件底部，通过点击小三角形展开该合约 - 使其指向下方。
 ![deploy contract](https://raw.githubusercontent.com/ethereum/remix-workshops/master/Basics/interacting/images/instance.png "deployed contract")
 
-2. 这个合约有两个函数。点击changeOwner右侧的小三角形（如下图所示），将打开输入框，以便您可以在单独的输入框中放入参数。
+2. 这个合约有两个函数。点击changeOwner右侧的小三角形（如下图红色框所示），将打开输入框，以便您可以在单独的输入框中放入参数。
 
 ![deploy contract](https://raw.githubusercontent.com/ethereum/remix-workshops/master/Basics/interacting/images/deployed_open2.png "deployed contract")
 
@@ -15,5 +15,5 @@
 
 5. 在 Remix VM 中，您无需批准交易即可进行操作。当使用更现实的测试环境或主网时，您需要批准交易才能使其通过。批准交易需要花费 gas。
 
-6. 选择公共网络不是在 Remix 中完成而是在浏览器钱包中完成（通常为 Metamask）。环境标题右侧有一个插头图标，链接到 chainlist.org，在那里可以获取与所需链互动所需规格。
+6. 选择公共网络不是在 Remix 中完成而是在浏览器钱包中完成（通常为 Metamask）。环境标题右侧有一个插头图标能链接到 chainlist.org，在那里可以获取与目标链交互的必要信息。
 ![chainlist](https://raw.githubusercontent.com/ethereum/remix-workshops/master/Basics/interacting/images/chainlist.png "chainlist")

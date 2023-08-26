@@ -3,12 +3,12 @@
 ### 1. 安装Metamask
 **1.1** 前往<a href="https://metamask.io/" target="_blank">metamask.io</a>。
 
-**1.2** 点击下载按钮，然后点击浏览器安装（例如Chrome），并添加扩展程序到您的浏览器中。
+**1.2** 点击下载按钮,然后点击对应你的浏览器（例如 Chrome）的安装按钮,并添加这个扩展到你的浏览器。
 
 **1.3** 按照说明创建一个钱包。
 
 ### 2. 获取测试代币
-为了在测试网络上进行交易，我们需要以太坊测试代币，您可以从称为水龙头的地方获得。
+为了在测试网络上发送交易，我们需要以太坊测试网络的代币，您可以从 *测试网水龙头* 获取测试代币。
 
 **2.1** 通过单击“Ethereum Mainnetwork”下拉菜单并选择“Ropsten Test Network”来切换您的Metamask网络。如果您没有看到任何测试网络，请单击“显示/隐藏”链接，并在设置中启用“显示测试网络”。
 
@@ -17,7 +17,7 @@
 ### 3. 部署
 确保已编译EduCoin合约。
 
-**3.1.** 在Remix IDE的“DEPLOY＆RUN TRANSACTIONS”模块下，在“ENVIRONMENT”中选择“Injected Web3”。它会要求您连接您的账户，您应该确认。
+**3.1.** 在 Remix IDE 的“ENVIRONMENT(环境)”下的“DEPLOY & RUN TRANSACTIONS(部署与运行交易)”模块中,选择 “Injected Web3”。它会要求您连接您的账户，您应该确认。
 
 **3.2** 部署EduCoin合约并在Metamask中确认交易。
 
@@ -27,11 +27,11 @@
 
 现在，您应该看到钱包余额为1000 EDC。
 
-### 4. 进行交易
+### 4. 发送交易
 **4.1** 单击Metamask钱包中的标识图像（表示您的地址），并创建第二个账户（Account 2）。
 
 **4.2** 复制Account 2 的地址。
 
-**4.3** 切换到第一个账户（Account 1）并向 Account 2 发送250 EDC。检查 Account 1 和 Account 2 的余额。如果要使用此帐户进行交易，则可能需要再次添加代币地址以便于 Account 2 导入代币，并且需要testeth。
+**4.3** 切换到第一个账户（Account 1）并向 Account 2 发送250 EDC。检查 Account 1 和 Account 2 的余额。如果要使用Account2进行交易，则可能需要再次为 Account 2 添加EDU代币地址以便于导入代币，并且也需要为Account2申请测试代币。
 
 如果查看Remix中的合约并使用Account 1和Account 2 的地址调用`balanceOf`函数，则还可以查看自己的帐户余额。

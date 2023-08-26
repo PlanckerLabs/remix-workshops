@@ -50,7 +50,7 @@
 <img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_transfer.gif?raw=true" alt="Test transfer function" width="300"/>
 
 #### 2.7 Approve
-现在，我们将允许账号1代表账号2消费代币。
+现在，我们将允许账号1代表账号2使用代币。
 
 **2.7.1** 转到“Account”部分，复制账号1的地址，然后再次设置回账号2。
 

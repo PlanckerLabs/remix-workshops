@@ -20,7 +20,7 @@ ERC20（Ethereum Request for Comments 20）是管理以太坊区块链上同质�
 函数`transfer`（第27行）将`amount`数量的代币转移到地址`recipient`。此功能必须发出`Transfer`事件（见下文），并且在发送方没有足够代币进行转移时应引发异常。
 
 ### approve
-函数`approve`（第52行）为地址`spender`创建一个许可，以便其可以代表调用该函数的账户转移一定数量的代币。
+函数 `approve`（第52行）为地址 `spender` 创建一个许可，使得 `spender` 可以以函数调用账户的身份转移一定 `数量` 的代币。
 
 ### allowance
 函数`allowance`（第36行）返回地址`spender`被允许为`owner`地址的账户消费的代币数目。

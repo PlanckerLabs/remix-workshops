@@ -4,8 +4,7 @@
 
 我们将创建自己的名为EduCoin（第6行）的合约，并继承OpenZepplin ERC20代币合约（第4行）。
 
-In this case, we are going to use the default values. We will call our token the same as the contract `"MyToken"` and make `"MTK"` its symbol.
-该合同实现了ERC20 Token标准中可选函数`name()`和`symbol()`，并具有构造函数，在部署该合约时可以设置其值（第7行）。在这种情况下，我们将使用默认值。我们将把代币起名为`MyToken`，并使`MTK`作为其符号。
+该合约实现了ERC20 Token标准中可选函数`name()`和`symbol()`，并具有构造函数，可以在部署该合约时设置构造函数参数（第7行）。在这种情况下，我们将使用默认值。我们将把代币起名为`MyToken`，并使`MTK`作为其符号。
 
 接下来，我们利用继承而来的_mint函数（第8行），在部署智能合约时生产代币。在参数内部，指定接收代币账户地址和要创建多少个代币。在本例中，部署智能合约的账户将收到代币，并且我们将数量设置为1000000的`decimals()`次方。本合约实现了ERC20代币标准的可选函数decimals()，并将其设置为默认值18。这将创建1000000个具有18位小数的代币。
 

@@ -4,12 +4,12 @@
 
 要使用此系统，我们首先部署LogicContract。
 
-然后当我们去部署ProxyContract时，将LogicContract的地址作为ProxyContract构造函数的参数传递。
+然后当我们去部署ProxyContract时，将LogicContract的地址作为ProxyContract构造函数的参数。
 
-只部署一次ProxyContract。
+ProxyContract仅被部署过一次。
 
-LogicContract代码将在第20行调用。它将被委托调用，并保持LogicContract上下文不变。
+LogicContract代码将在第20行被调用。它将被委托调用，并保持LogicContract上下文不变。
 
 如果需要更改逻辑，则会部署新的LogicContract并使用setLogicContracAddress设置器函数设置其地址。
 
-*注意：这里使用的LogicConract不使用存储。一旦需要使用存储，实现就会变得更加复杂，因为这些合同共享上下文。*
+*注意：这里使用的LogicConract不使用存储。一旦需要使用存储，实现就会变得更加复杂，因为这些合约共享上下文。*

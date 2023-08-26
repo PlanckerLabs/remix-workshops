@@ -21,9 +21,9 @@ https://gitter.im/ethereum/remix-workshop
 
 **5. 您可能需要登录 Github**
 
-Github 会阻止来自同一位置的太多请求 - 除非您已登录 github 并输入了token。 这只是在workshop期间才存在的问题 - 但因为我们正在进行workshop，所以我们需要执行以下步骤：
+除非您已登录 github 并输入了token，否则 Github 会阻止来自同一位置的过多请求。这只是在workshop期间才存在的问题 - 但因为我们正在进行workshop，所以我们需要执行以下步骤：
 ```
-    - 在一个浏览器窗口中 - 转到 remix.ethereum.org 并转到设置选项卡
+    - 在一个浏览器窗口中 - 转到remix.ethereum.org并转到设置选项
     - 在另一个浏览器窗口中转到:
     
     https://github.com/settings/tokens 

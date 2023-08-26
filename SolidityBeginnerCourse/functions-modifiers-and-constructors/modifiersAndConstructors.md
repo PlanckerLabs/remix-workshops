@@ -5,11 +5,9 @@
 
 这个合约的第一部分是关于更改合约所有权。该合约中的所有权由类型为`address`（第7行）的状态变量`owner`表示。
 
-The function `changeOwner` (line 33) can change this ownership. It takes an input parameter of the type `address` and assigns its value to the state variable `owner`.
 `changeOwner`函数（第33行）可以更改此所有权。它接受一个`address`类型的输入参数，并将其值分配给状态变量`owner`。
 
-However, this function cannot simply be executed under all conditions; it has two modifiers, `onlyOwner` and `validAddress`.
-但是，在任何情况下都不能简单地执行此函数；它有两个修饰符：`onlyOwner` 和 `validAddress`。
+但是这个函数并不是在所有情况下都能执行；它有两个修饰符：`onlyOwner` 和 `validAddress`。
 
 首先看看`onlyOwner`修饰符（第18行）。使用`modifier`关键字和唯一名称定义函数修饰符；它们也可以具有参数。
 

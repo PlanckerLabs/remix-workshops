@@ -1,6 +1,6 @@
 # Delegate call
 
-它是**message call**的一种特殊变体，目标地址的代码使用调用合约的上下文执行，msg.sender和msg.value在目标合约中的值和调用合约的值一样。
+它是**message call**的一种特殊变体，它与我**message call**基本一致，唯一的区别是目标地址的代码是在调用合约的上下文中执行，因此**msg.sender**和**msg.value**不变。
 
 这意味着一个合约可以在运行时从不同的地址动态加载代码。
 

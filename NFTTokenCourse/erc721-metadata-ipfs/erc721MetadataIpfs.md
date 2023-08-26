@@ -79,7 +79,8 @@ geo-json
 
 如上所示，此示例中的文件夹名为“geo-json”。在该文件夹内，我们有三个JSON文件。第一个JSON文件名为“0”，第二个JSON文件名为“1”，第三个JSON文件名为“2”。
 
-确保您的JSON文件没有扩展名，并按其对应的tokenIds进行命名。在pinata.cloud上的pin manager中，单击上传按钮并上传包含您的JSON文件的整个文件夹。
+确保您的 JSON 文件没有文件扩展名,并且文件名与其对应的 tokenId 相同。
+在 pinata.cloud 上的 pin manager 中,点击上传按钮并上传带有 JSON 文件的文件夹。
 
 要访问IPFS上的您的文件夹，请输入此地址"https://ipfs.io/ipfs/"并添加CID。对于我们当前的示例，您可以使用以下方式访问您的文件夹：
 <a href="https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp" target="_blank">
@@ -92,6 +93,6 @@ geo-json
     https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp/0
 </a>
 
-在合约中用自己的baseURI替换原来的baseURI。在本例中，baseURI由URL"https://ipfs.io/ipfs/"、包含JSON文件的CID和一个斜杠“/”。
+在合约中,用您自己的 baseURI 替换 baseURI。 在这个例子中, baseURI 由 URL "https://ipfs.io/ipfs/"、包含 JSON 文件的 CID 和末尾的斜杠 "/" 组成。
 
 现在，通过将tokenId添加到baseURI来为每个代币创建单独的tokenURI —— 就像我们在上面的示例中手动访问JSON文件一样。

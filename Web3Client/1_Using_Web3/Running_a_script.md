@@ -19,4 +19,4 @@
 
 从终端执行`remix.execute()`。此命令将执行带有`let blockNumber = await web3.eth.getBlockNumber()`代码的JavaScript文件。
 
-在控制台中，您应该可以看到Metamask连接到链条上当前区块的编号。
+在控制台中，你可以看到与metamask相连接的区块链的当前区块号。
